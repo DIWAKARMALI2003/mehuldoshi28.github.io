@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Location </title>
+<style>
+body{
+background-image: url('bg2.png');
+background-size:cover;
+}
+</style>
+</head>
+<style>
+.grid-container
+{
+display:inline-grid;
+grid-template-columns:repeat(2,1fr);
+grid-template-rows:repeat(2,1fr);
+grid-gap:10px;
+color:brown;
+}
+.grid-container>div
+{
+border-top-left-radius:25px;
+border-top-right-radius:25px;
+border-bottom-left-radius:25px;
+border-bottom-right-radius:25px;
+background-color:rgb(255,239,227);
+border:10px solid rgb(255,182,239);
+}
+.grid-container>div:hover{
+background:rgb(255,242,206);
+}
+iframe
+{
+width:300px;
+height:230px;
+padding:25px;
+}
+.main
+{
+font-size:50px;
+font-family:courier;
+padding-top:85px;
+}
+.ans
+{
+font-size:30px;
+font-family:courier;
+padding-top:45px;
+}
+
+@media(max-width:800px)
+{
+iframe{
+width:75%;
+height:75%;
+}
+}
+ul
+{ 
+float:right;
+
+list-style:none;
+
+margin-top:25px;
+
+
+}
+
+ul li
+{
+
+display:inline-flex;
+
+}
+
+ul li a{
+
+font-size:20px;
+
+text-decoration: none;
+
+color:#212F3C;
+
+padding:10px 20px 20px 20px;
+
+border:1px solid #fff transparent;
+
+transition:0.7s ease;
+
+}
+
+ul li a:hover{
+background-color:#ECF0F1;
+color:#7D3C98;
+font-size:25px;
+font-style:Arial;	
+}
+ul li.home a{
+background-color:#ECF0F1;
+color:#7D3C98;
+font-size:25px;
+}
+.main{
+max-width: 1200px;
+margin:auto;
+}
+</style>
+<div class="main">
+
+<ul>
+
+<li class="home"><a href="index.html">home</a></li>
+
+<li><a href="aboutme.html">About me</a></li>
+
+<li><a href="subject.html">subjects</a></li>
+<li><a href="abouthtml.html">Html tags</a></li>
+
+<li><a href="qualification.html">QUALIFICATION</a></li>
+
+<li><a href="location.html">location</a></li>
+
+</ul>
+
+</div>
+
+<center>
+<body>
+<h1 style="color:red;font-size:500%;background-color:powderblue;"><b><i><marquee width=50%>My Location</marquee></i></b></h1>
+ <div class="grid-container">
+   <div class="main"><strong> Address </strong></div>
+   <div class="ans"><strong> Purani Chungi <br>Ajmer Road<br> Jaipur </strong></div>
+   <div class="main"><strong> Location </strong></div>
+   <div class="ans_"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1118.9536642325436!2d75.75601514199393!3d26.894409297720284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1582358374185!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> allowfullscreen=""></iframe></div>
+  </div>
+ </div>
+</body>
+</html>
